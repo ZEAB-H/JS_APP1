@@ -1,2 +1,3 @@
-# JS_APP1
-the quiz app made for practicing javascript
+# JS- APP 
+
+## developing a good quiz app for practicing basic web sites development
