@@ -1,28 +1,48 @@
 
 
-.header{
+
+header{
     text-shadow: #ffffff;
     background: #218380;
+     position: fixed;
+     /* top:0; right:0; */
+     top: 0; left: 0;right: 0;
+     /* min-height: 100vh; */
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     /* z-index: 1000; */
+     text-align: left;
+     color: #ffffff;
+     border: 30px;
+     padding-top: 10px;
+     padding-left: 10px;
+     text-indent: 10px;
 }
 
-.highScore{
-    text-align: left;
-    color: #ffffff;
-    border: 30px;
-    padding-top: 10px;
-    padding-left: 10px;
-    text-indent: 10px;
+header .navbar{
 
+    writing-mode:horizontal-tb;
+    padding:1.5rem;
+    
 
 }
 
-.time{
-    text-align: right;
-    color: #ffffff;
-    border: 30px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    text-indent: 10px;
+header .navbar{
+
+padding: 10px 20px;
+    font-weight: 500;
+    font-size: 2rem;
+   }
+
+
+
+.start{
+    padding: 10rem;
+    align-item:center;
+    justify-content:center;
+    box-shadow: 1px;
+    border:1rem;
 
 }
 
